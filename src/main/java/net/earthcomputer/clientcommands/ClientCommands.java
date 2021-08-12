@@ -29,6 +29,7 @@ public class ClientCommands implements ClientModInitializer {
         FindCommand.register(dispatcher);
         FindBlockCommand.register(dispatcher);
         FindItemCommand.register(dispatcher);
+        DonkeyDupeCommand.register(dispatcher);
         TaskCommand.register(dispatcher);
         CalcCommand.register(dispatcher);
         TempRuleCommand.register(dispatcher);
